@@ -2,10 +2,10 @@ import axios from 'axios'
 import './App.css'
 import { useEffect, useState } from 'react';
 import { Routes,Route } from 'react-router-dom';
-import { getArticles,getArticleById } from './api';
-import MainListView from './components/MainListView';
-import ViewPost from './components/ViewPost';
-import NewPost from './components/NewPost';
+import { getArticles,getArticleById } from '../api';
+import MainListView from '../components/MainListView';
+import ViewPost from '../components/ViewPost';
+import NewPost from '../components/NewPost';
 
 
 function App() {

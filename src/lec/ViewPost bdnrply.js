@@ -1,7 +1,7 @@
 import {useParams} from 'react-router-dom'
 import { getArticleById, getComments, delComment, postComment } from '../api';
 import { useEffect, useState } from 'react';
-import CommentInput from './CommentInput';
+import CommentInput from '../components/CommentInput';
 
 function ViewPost(){
     let {id} = useParams();
